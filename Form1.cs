@@ -53,19 +53,20 @@ public partial class Form1 : Form
     }
 
     }
+//if/
+public class Sentencias
+{ 
+    public int temperatura = 30;
 
-class Sentencias
+    if (temperatura > 35) {
+        Console.WriteLine("Hace mucho calor.");
+    } else if (temperatura >= 20 && temperatura <= 35) {
+        Console.WriteLine("El clima es agradable.");
+    } else
+    {
+        Console.WriteLine("Hace frío.");
+    }
+
 {
- public int temperatura = 30;
-
-if (temperatura > 35) {
-    Console.WriteLine("Hace mucho calor.");
-} else if (temperatura >= 20 && temperatura <= 35) {
-    Console.WriteLine("El clima es agradable.");
-} else
-{
-    Console.WriteLine("Hace frío.");
-}
 
 }
-no me sale
