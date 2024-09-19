@@ -56,7 +56,7 @@ public partial class Form1 : Form
 
 class Sentencias
 {
-    int temperatura = 30;
+ public int temperatura = 30;
 
 if (temperatura > 35) {
     Console.WriteLine("Hace mucho calor.");
@@ -68,3 +68,4 @@ if (temperatura > 35) {
 }
 
 }
+no me sale
