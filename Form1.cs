@@ -52,21 +52,29 @@ public partial class Form1 : Form
         return a / b;
     }
 
-    }
+}
 //if/
+using System;
+
 public class Sentencias
-{ 
+{
+    // Variable de instancia
     public int temperatura = 30;
 
-    if (temperatura > 35) {
-        Console.WriteLine("Hace mucho calor.");
-    } else if (temperatura >= 20 && temperatura <= 35) {
-        Console.WriteLine("El clima es agradable.");
-    } else
+    // Método para verificar la temperatura
+    public void VerificarClima()
     {
-        Console.WriteLine("Hace frío.");
+        if (temperatura > 35)
+        {
+            Console.WriteLine("Hace mucho calor.");
+        }
+        else if (temperatura >= 20 && temperatura <= 35)
+        {
+            Console.WriteLine("El clima es agradable.");
+        }
+        else
+        {
+            Console.WriteLine("Hace frío.");
+        }
     }
-
-{
-
 }
