@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POOSemana1Console
+namespace POOConsole
 {
     internal class Program
     {
@@ -16,7 +16,8 @@ namespace POOSemana1Console
                 Console.WriteLine("Que desea hacer?");
                 Console.WriteLine("0- Salir");
                 Console.WriteLine("1- Validar numeros primos");
-                Console.WriteLine("2- Validar numero mayor y numero menor");
+                Console.WriteLine("2- Validar numero mayor y numero menor de 3 numeros");
+                Console.WriteLine("3- Numero mayor de una lista");
                 int op = Convert.ToInt32(Console.ReadLine());
                 switch (op)
                 {
@@ -28,6 +29,9 @@ namespace POOSemana1Console
                         break;
                     case 2:
                         NumeroMayorNUmeroMenor();
+                        break;
+                    case 3:
+                        MayorDeUnaLista();
                         break;
                 }
                 if (continuar)
@@ -139,6 +143,50 @@ namespace POOSemana1Console
                     Console.WriteLine("el tercer numero es el menor");
                 }
             }
+        }
+
+        private static void MayorDeUnaLista()
+        {
+            bool continuar = true;
+            List<int> lista = new List<int>();
+            while (continuar)
+            {
+                Console.WriteLine("Escribe un numero");
+                int numero = Convert.ToInt32(Console.ReadLine());
+                lista.Add(numero);
+                Console.WriteLine("Preguntar si quiere agregar otro numero");
+                Console.WriteLine("S- SI");
+                Console.WriteLine("N- NO");
+                continuar = char.ToUpper(Console.ReadKey().KeyChar) == 'S';
+                Console.Clear();
+            }
+            bool esMayor = false;
+            for (int i = 0; i < lista.Count; i++) //FOR 1
+            {
+                int N = lista[i]; //Obtener numero de lista
+                for(int j = 0; j <lista.Count; j++) //FOR 2
+                {
+                    int M = lista[j]; //Obtener numero del segundo for
+                    if (N < M)
+                    {
+                        break;
+                    }
+                    else if (N == M || N > M)
+                    {
+                        if(j== lista.Count-1)
+                        {
+                            esMayor = true;
+                        }
+                    }
+                }
+                // si aun no se ha encontrado el mayor,
+                //pasa a la siguiente iteracion del for 1
+                if (!esMayor)
+                {
+                    break;
+                }
+            }
+            Console.WriteLine("El numero mayor es:");
         }
     }
 }
