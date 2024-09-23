@@ -1,0 +1,8 @@
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Mayor_menor_primos\bin\Debug\Mayor_menor_primos.exe.config
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Mayor_menor_primos\bin\Debug\Mayor_menor_primos.exe
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Mayor_menor_primos\bin\Debug\Mayor_menor_primos.pdb
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Mayor_menor_primos\obj\Debug\Mayor_menor_primos.csproj.AssemblyReference.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Mayor_menor_primos\obj\Debug\Mayor_menor_primos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Mayor_menor_primos\obj\Debug\Mayor_menor_primos.csproj.CoreCompileInputs.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Mayor_menor_primos\obj\Debug\Mayor_menor_primos.exe
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Mayor_menor_primos\obj\Debug\Mayor_menor_primos.pdb
