@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POOConsole
+namespace Mayor_menor_primos
 {
     internal class Program
     {
