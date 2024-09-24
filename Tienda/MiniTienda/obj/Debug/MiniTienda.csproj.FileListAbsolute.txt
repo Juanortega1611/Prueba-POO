@@ -1,0 +1,8 @@
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Tienda\MiniTienda\bin\Debug\MiniTienda.exe.config
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Tienda\MiniTienda\bin\Debug\MiniTienda.exe
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Tienda\MiniTienda\bin\Debug\MiniTienda.pdb
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Tienda\MiniTienda\obj\Debug\MiniTienda.csproj.AssemblyReference.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Tienda\MiniTienda\obj\Debug\MiniTienda.csproj.SuggestedBindingRedirects.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Tienda\MiniTienda\obj\Debug\MiniTienda.csproj.CoreCompileInputs.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Tienda\MiniTienda\obj\Debug\MiniTienda.exe
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Tienda\MiniTienda\obj\Debug\MiniTienda.pdb

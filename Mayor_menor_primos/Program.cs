@@ -165,6 +165,7 @@ namespace Mayor_menor_primos
                 Console.Clear();
             }
             bool esMayor = false;
+            int Mayor = 0;
             for (int i = 0; i < lista.Count; i++) //FOR 1
             {
                 int N = lista[i]; //Obtener numero de lista
@@ -173,24 +174,24 @@ namespace Mayor_menor_primos
                     int M = lista[j]; //Obtener numero del segundo for
                     if (N < M)
                     {
+                        esMayor = false;
                         break;
                     }
-                    else if (N == M || N > M)
+                    else
                     {
-                        if(j== lista.Count-1)
-                        {
                             esMayor = true;
-                        }
+                      
                     }
                 }
                 // si aun no se ha encontrado el mayor,
                 //pasa a la siguiente iteracion del for 1
                 if (!esMayor)
                 {
+                    Mayor = N;
                     break;
                 }
             }
-            Console.WriteLine($"El numero mayor es: {esMayor}");
+            Console.WriteLine($"El numero mayor es: {Mayor}");
         }
         private static void MenorDeUnaLista()
         {
