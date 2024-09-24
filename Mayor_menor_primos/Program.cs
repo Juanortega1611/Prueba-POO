@@ -13,11 +13,12 @@ namespace Mayor_menor_primos
             bool continuar = true;
             while (continuar)
             {
-                Console.WriteLine("Que desea hacer?");
+                Console.WriteLine("¿Que desea hacer?");
                 Console.WriteLine("0- Salir");
                 Console.WriteLine("1- Validar numeros primos");
                 Console.WriteLine("2- Validar numero mayor y numero menor de 3 numeros");
                 Console.WriteLine("3- Numero mayor de una lista");
+                Console.WriteLine("4- Numero menor de una lista");
                 int op = Convert.ToInt32(Console.ReadLine());
                 switch (op)
                 {
@@ -32,6 +33,9 @@ namespace Mayor_menor_primos
                         break;
                     case 3:
                         MayorDeUnaLista();
+                        break;
+                    case 4:
+                        MenorDeUnaLista();
                         break;
                 }
                 if (continuar)
@@ -154,9 +158,9 @@ namespace Mayor_menor_primos
                 Console.WriteLine("Escribe un numero");
                 int numero = Convert.ToInt32(Console.ReadLine());
                 lista.Add(numero);
-                Console.WriteLine("Preguntar si quiere agregar otro numero");
-                Console.WriteLine("S- SI");
-                Console.WriteLine("N- NO");
+                Console.WriteLine("¿Quieres agregar otro numero");
+                Console.WriteLine("S- Yes");
+                Console.WriteLine("N- Not");
                 continuar = char.ToUpper(Console.ReadKey().KeyChar) == 'S';
                 Console.Clear();
             }
@@ -186,7 +190,29 @@ namespace Mayor_menor_primos
                     break;
                 }
             }
-            Console.WriteLine("El numero mayor es:");
+            Console.WriteLine($"El numero mayor es: {esMayor}");
+        }
+        private static void MenorDeUnaLista()
+        {
+            bool continuar = true;
+            List<int> lista = new List<int>();
+            while(continuar)
+            {
+                Console.WriteLine("Escribe un numero");
+                int numero = Convert.ToInt32(Console.ReadLine());
+                lista.Add(numero);
+                Console.WriteLine("S- Yes");
+                Console.WriteLine("N- Not");
+                continuar = char.ToUpper(Console.ReadKey().KeyChar) == 'S';
+                Console.Clear();
+            }
+            if (lista.Count > 0)
+            {
+                int menor = lista.Min();
+                Console.WriteLine($"El numero menor es: {menor}");
+            }
+
         }
     }
+    
 }
