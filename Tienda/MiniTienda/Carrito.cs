@@ -21,8 +21,8 @@ namespace MiniTienda
             {
                 Console.WriteLine($"Nombre: {Lista[p].Nombre}, " +
                     $"Cantidad: {Lista[p].Cantidad}," +
-                    $"Precio: {Lista[p].Precio}," +
-                    $"Total: {Lista[p].Cantidad * Lista[p].Precio}");
+                    $"Precio: {Lista[p].Precio:C}," +
+                    $"Total: {Lista[p].Cantidad * Lista[p].Precio:C}");
             }
         }
      }

@@ -51,6 +51,7 @@ namespace MiniTienda
                 //  Cantidad = cantidad,
                 //  Precio = precio
                 //};
+
                 carrito.MostrarCarrito();
                 Caja caja = new Caja();
                 caja.Cobrar(carrito);
