@@ -28,7 +28,7 @@ namespace MiniTienda
 
                 if (continuar)
                 {
-                    Console.WriteLine("¿Quieres agregar otro producto?");
+                    Console.WriteLine("¿Desea agregar otro producto a su lista?");
                     Console.WriteLine("S- Yes");
                     Console.WriteLine("N- Not");
                     continuar = char.ToUpper(Console.ReadKey().KeyChar) == 'S';
