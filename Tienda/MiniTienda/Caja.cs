@@ -16,7 +16,7 @@ namespace MiniTienda
             //foreach
             foreach (Productos producto in carrito.Lista)
             {
-                total += producto.Cantidad * producto.Precio;
+                total = total+ producto.Cantidad * producto.Precio;
             }
          //CREAR METODO PAGAR
             Console.WriteLine($"El total a pagar es: {total:C}");
