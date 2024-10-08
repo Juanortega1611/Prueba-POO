@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FundamentosPOO",
+    "\\Tienda"
   ],
+  "SelectedNode": "\\FundamentosPOO\\Persona.cs",
   "PreviewInSolutionExplorer": false
 }

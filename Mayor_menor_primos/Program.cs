@@ -100,11 +100,11 @@ namespace Mayor_menor_primos
             {
                 if (num1 > num3)
                 {
-                    Console.WriteLine($"el numero {num1} es el mayor");
+                    Console.WriteLine($"El primer numero es el mayor");
                 }
                 else
                 {
-                    Console.WriteLine("el tercer numero es el mayor");
+                    Console.WriteLine("El tercer numero es el mayor");
                 }
 
             }
@@ -112,11 +112,11 @@ namespace Mayor_menor_primos
             {
                 if (num2 > num3)
                 {
-                    Console.WriteLine("el segundo numero es el mayor");
+                    Console.WriteLine("El segundo numero es el mayor");
                 }
                 else
                 {
-                    Console.WriteLine("el tercer numero es el mayor");
+                    Console.WriteLine("El tercer numero es el mayor");
                 }
             }
 
@@ -128,11 +128,11 @@ namespace Mayor_menor_primos
             {
                 if (num1 < num3)
                 {
-                    Console.WriteLine("el primer numero es el menor");
+                    Console.WriteLine("El primer numero es el menor");
                 }
                 else
                 {
-                    Console.WriteLine("el tercer numero es el menor");
+                    Console.WriteLine("El tercer numero es el menor");
                 }
 
             }
@@ -140,11 +140,11 @@ namespace Mayor_menor_primos
             {
                 if (num2 < num3)
                 {
-                    Console.WriteLine("el segundo numero es el menor");
+                    Console.WriteLine("El segundo numero es el menor");
                 }
                 else
                 {
-                    Console.WriteLine("el tercer numero es el menor");
+                    Console.WriteLine("El tercer numero es el menor");
                 }
             }
         }

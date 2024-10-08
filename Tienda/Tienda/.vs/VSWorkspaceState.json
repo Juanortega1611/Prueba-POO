@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MiniTienda",
-    "\\MiniTienda\\bin\\Release",
-    "\\MiniTienda\\obj\\Release",
-    "\\MiniTienda\\Properties",
     "\\obj"
   ],
-  "SelectedNode": "\\MiniTienda",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

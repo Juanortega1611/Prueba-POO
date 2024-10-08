@@ -1,0 +1,3 @@
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Sem1\Ope\obj\Debug\Ope.csproj.AssemblyReference.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Sem1\Ope\obj\Debug\Ope.csproj.SuggestedBindingRedirects.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\Sem1\Ope\obj\Debug\Ope.csproj.CoreCompileInputs.cache

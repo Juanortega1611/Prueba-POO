@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,16 +36,14 @@ namespace Tienda
         public static void MostrarCatalogo()
         {
             LlenarCatalogo();
-            foreach(Articulo art in Inventario)
+            foreach (Articulo art in Inventario) 
             {
-                Console.WriteLine($"{art.ID} - {art.Nombre} - {art.Precio:C}");
+                Console.Write($"{art.ID} - {art.Nombre} - {art.Precio:C}");
             }
-
         }
-
-        public static Articulo BuscarArticuloPorID(int artID)
+        public static Articulo BuscarArticulosPorId(int artID)
         {
-            return Inventario.Find(articulo => articulo.ID.Equals(artID));
+            return Inventario.Find(Articulo => Articulo.ID.Equals(artID));
         }
     }
 }

@@ -8,10 +8,10 @@ namespace Tienda
 {
     //* Lista de articulos
     //* IVA
-    //*Total, pagado y cambio
+    //* Total, pagado y cambio
     //* Fecha
     //* Numero de compra
-    class Ticket
+     class Ticket
     {
         public List<Articulo> Lista { get; set; }
         public decimal Total { get; set; }

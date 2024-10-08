@@ -10,7 +10,7 @@ namespace Tienda
     //* ID
     //* Nombre
     //* Cantidad
-    class Articulo
+     class Articulo
     {
         public int ID { get; set; }
         public string Nombre { get; set; }
