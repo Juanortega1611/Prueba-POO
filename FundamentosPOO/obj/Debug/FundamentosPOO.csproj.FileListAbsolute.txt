@@ -6,3 +6,11 @@ C:\Users\Juan Ortega\OneDrive\Documentos\POO\FundamentosPOO\bin\Debug\Fundamento
 C:\Users\Juan Ortega\OneDrive\Documentos\POO\FundamentosPOO\bin\Debug\FundamentosPOO.pdb
 C:\Users\Juan Ortega\OneDrive\Documentos\POO\FundamentosPOO\obj\Debug\FundamentosPOO.exe
 C:\Users\Juan Ortega\OneDrive\Documentos\POO\FundamentosPOO\obj\Debug\FundamentosPOO.pdb
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\FundamentosPOO\obj\Debug\FundamentosPOO.csproj.AssemblyReference.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\FundamentosPOO\obj\Debug\FundamentosPOO.csproj.SuggestedBindingRedirects.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\FundamentosPOO\obj\Debug\FundamentosPOO.csproj.CoreCompileInputs.cache
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\FundamentosPOO\obj\Debug\FundamentosPOO.exe
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\FundamentosPOO\obj\Debug\FundamentosPOO.pdb
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\FundamentosPOO\bin\Debug\FundamentosPOO.exe.config
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\FundamentosPOO\bin\Debug\FundamentosPOO.exe
+C:\Users\Juan Ortega\OneDrive\Documentos\POO\Prueba\FundamentosPOO\bin\Debug\FundamentosPOO.pdb
